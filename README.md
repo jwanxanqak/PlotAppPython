@@ -1,17 +1,27 @@
+# Create Docker Container with Flask Seaborn Regression Plot App
+
 # Introduction
 
-deep learning applications to time series:
+create a Docker container in which you will implement a web application using flask in a Linux environment. The application will return a regression plot of data housed in a CSV file on the server.
 
-[Virtual environment:](https://github.com/gizanpk/Time-series-prediction-with-Deep-Learning.-/blob/main/0.%20Virtual%20environment.txt)  
+Learning Objectives
 
-Case 1: [Fundamentals of RNN and LSTM with Keras](https://github.com/gizanpk/Time-series-prediction-with-Deep-Learning.-/blob/main/1.%20Fundamentals%20of%20RNN%20and%20LSTM%20with%20Keras.ipynb)
+    • Create and remove a Linux container using Docker.
+    • Create the plotting application.
+    • Implement the Flask application.
+    • Determine the Packages needed for the container image.
+    • Generate a Dockerfile to build the image in the container.
 
-Case 2: [Time series prediction with Deep Learning. LSTM model](https://github.com/gizanpk/Time-series-prediction-with-Deep-Learning.-/blob/main/2.%20Time%20series%20prediction%20with%20Deep%20Learning.%20LSTM%20model.ipynb)
+[Dockerfile:](https://github.com/jwanxanqak/PlotAppPython/blob/main/Dockerfile)  
 
-Case 3: [Time series prediction with Deep Learning. LSTM model_EarlyStopping](https://github.com/gizanpk/Time-series-prediction-with-Deep-Learning.-/blob/main/3.%20Time%20series%20prediction%20with%20Deep%20Learning.%20LSTM%20model_EarlyStopping.ipynb)
+Application: [app](https://github.com/jwanxanqak/PlotAppPython/blob/main/app.py)
 
-Case 4: [Predict the number of passengers on a airplane with LSTM](https://github.com/gizanpk/Time-series-prediction-with-Deep-Learning.-/blob/main/4.%20predict%20the%20number%20of%20passengers%20on%20a%20airplane%20with%20LSTM.ipynb)
+Script for plot: [plotdata](https://github.com/jwanxanqak/PlotAppPython/blob/main/plotdata.py)
 
-Case 5: [Predict the number of passengers on a airplane with LSTM_EarlyStopping](https://github.com/gizanpk/Time-series-prediction-with-Deep-Learning.-/blob/main/5.%20Predict%20the%20number%20of%20passengers%20on%20a%20airplane%20with%20LSTM_EarlyStopping.ipynb)
+plot of regression: [regress](https://github.com/jwanxanqak/PlotAppPython/blob/main/regress.png)
+
+environment requirements : [requirements](https://github.com/jwanxanqak/PlotAppPython/blob/main/requirements.txt)
+
+DataSet: [tempYearly](https://github.com/jwanxanqak/PlotAppPython/blob/main/tempYearly.csv)
 
 
