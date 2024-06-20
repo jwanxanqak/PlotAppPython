@@ -15,7 +15,7 @@ def regr_plot():
     image = regression_plot()
 
     return send_file(image,
-                 download_name='regplot.png',
+                 download_name='regress.png',
                  mimetype='image/png')
     # return send-file('regplot.png',mimetype='image/png'
 
