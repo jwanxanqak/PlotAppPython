@@ -17,7 +17,7 @@ RUN pip3 install -r requirements.txt
 COPY . /
 
 #Informa a Docker que el contenedor escuchará en el puerto 15000 en tiempo de ejecución.
-EXPOSE 15000
+EXPOSE 10000
 
 #Configura el contenedor para que se ejecute como una aplicación Python.
 ENTRYPOINT ["python3"]
