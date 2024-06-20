@@ -23,4 +23,4 @@ EXPOSE 15000
 ENTRYPOINT ["python3"]
 
 # Comando para ejecutar la aplicación
-CMD ["app/app.py"]
+CMD ["./app.py"]
